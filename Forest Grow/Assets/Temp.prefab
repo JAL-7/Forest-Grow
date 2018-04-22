@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1786494822832842}
+  m_IsPrefabParent: 1
+--- !u!1 &1786494822832842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4176117748260010}
+  - component: {fileID: 114902155603624026}
+  m_Layer: 0
+  m_Name: Temp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4176117748260010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1786494822832842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.32544, y: -111.74831, z: -157.53445}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114902155603624026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1786494822832842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b4b89a3c2a04b84985e66ed16b7a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshFilter: {fileID: 0}
+  coloring:
+    serializedVersion: 2
+    key0: {r: 0.47325304, g: 0.32077366, b: 0, a: 1}
+    key1: {r: 0.7039388, g: 0.40667582, b: 0, a: 1}
+    key2: {r: 0.8810202, g: 0.40277505, b: 0, a: 0}
+    key3: {r: 0.3254902, g: 1, b: 0.15166831, a: 0}
+    key4: {r: 0, g: 0.7655165, b: 0, a: 0}
+    key5: {r: 0.0031467015, g: 0.6182607, b: 0.13454007, a: 0}
+    key6: {r: 0, g: 0.26584202, b: 0, a: 0}
+    key7: {r: 1, g: 1, b: 1, a: 0}
+    ctime0: 0
+    ctime1: 10569
+    ctime2: 15784
+    ctime3: 21645
+    ctime4: 34152
+    ctime5: 42782
+    ctime6: 56443
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  coloringB:
+    serializedVersion: 2
+    key0: {r: 0.77618456, g: 0.9717126, b: 0, a: 1}
+    key1: {r: 0.7900946, g: 0.56983304, b: 0, a: 1}
+    key2: {r: 0.093999155, g: 0, b: 0.79536915, a: 0}
+    key3: {r: 0.093999155, g: 0, b: 0.79536915, a: 0}
+    key4: {r: 0.093999155, g: 0, b: 0.79536915, a: 0}
+    key5: {r: 0.093999155, g: 0, b: 0.79536915, a: 0}
+    key6: {r: 0.15353711, g: 0.7292104, b: 0.74977887, a: 0}
+    key7: {r: 0, g: 0, b: 0.7765842, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 65535
+    ctime5: 65535
+    ctime6: 65535
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  trees:
+  - {fileID: 1568725700523262, guid: 8bfadae6a79a64b1a93542da0f1d0387, type: 2}
+  - {fileID: 1981847505126888, guid: 742cea47b126f4b6381702a13c43985d, type: 2}
+  - {fileID: 1668747239658866, guid: 6f07a0dce58964744bef3d764dbe463e, type: 2}
+  - {fileID: 1033592171294866, guid: 00ce6decc47194e8b91b48b132d6f7dd, type: 2}
+  - {fileID: 1429322500269026, guid: a6fe4b264cc6c479ab39fc57aea01536, type: 2}
+  treePar: {fileID: 0}
