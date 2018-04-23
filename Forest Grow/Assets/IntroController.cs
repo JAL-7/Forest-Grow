@@ -10,6 +10,7 @@ public class IntroController : MonoBehaviour
     public Image img;
     public Image img1;
     public Image img2;
+    public Image img3;
 
     void Update()
     {
@@ -20,7 +21,9 @@ public class IntroController : MonoBehaviour
         if (slide == 1) {
             txt.text = "When you shoot a tree it will be destroyed but it will also spawn new trees";
             txt.gameObject.transform.localPosition = new Vector3(0,150,0);
+            txt.rectTransform.sizeDelta = new Vector2(650,181);
             img.gameObject.SetActive(false);
+            img3.gameObject.SetActive(false);
         }
 
         if (slide == 2) {
