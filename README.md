@@ -1,16 +1,12 @@
-# Forest-Grow
-
-## My submission for Ludum Dare 41, Forest Grow
-
 ### Forest Grow is a puzzle game, where you try to populate a map with trees... by shooting them down.
 
 #### What I Did
 
-Write the movement, shooting, destruction and menu scripts
+Wrote the movement, shooting, destruction and menu scripts
 
-Model the trees
+Modelled the trees
 
-Create an algorithm for land height
+Wrote an algorithm for creating low-poly land
 
 #### What I Didn't Do
 
